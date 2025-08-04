@@ -1,0 +1,121 @@
+{
+  "locales": {
+    "en": {
+      "title": "Experience",
+      "title_long_prefix": "Summary of my",
+      "title_long": "**Work** Experience"
+    }
+  },
+
+  "articles": [
+    {
+      "id": "work",
+      "component": "ArticleTimeline",
+      "config": {},
+      "locales": {},
+      "items": [
+        {
+          "icon": {
+            "img": null,
+            "fa": "fa-brands fa-php",
+            "faColors": { "bg": "#8892BF", "fill": "#EEE" }
+          },
+          "dates": {
+            "start": "02/2025",
+            "end": null
+          },
+          "locales": {
+            "en": {
+              "title": "**Full Stack Software Engineer Intern**",
+              "info": "SnapWerks, KINIT (Pvt) Ltd",
+              "text": "Spearheaded development of SnapWerks, a multilingual, modular job & service marketplace spanning 9 countries. Built core backend services with Symfony, Twig, and Doctrine, ensuring multi-tenant data isolation and localization. Developed mobile apps with Hotwire Native integrating native views and Turbo Streams. Engineered dynamic UIs with Stimulus.js, Tailwind CSS, and Turbo. Integrated international payment gateways (Stripe, PayHere) and automated E2E testing with Cypress, achieving 90% test coverage. Implemented AI-driven job-service matching, increasing conversion by 15%.",
+              "tags": [
+                "Symfony",
+                "Twig",
+                "Doctrine",
+                "Hotwire Native",
+                "Stimulus.js",
+                "Tailwind CSS",
+                "Turbo",
+                "Stripe",
+                "PayHere",
+                "Cypress",
+                "AI"
+              ]
+            }
+          }
+        },
+        {
+          "icon": {
+            "img": null,
+            "fa": "fa-brands fa-node-js",
+            "faColors": { "bg": "#339933", "fill": "#EEE" }
+          },
+          "dates": {
+            "start": "01/2023",
+            "end": "07/2021"
+          },
+          "locales": {
+            "en": {
+              "title": "**Backend & Frontend Developer**",
+              "info": "University Projects & Freelance",
+              "text": "Developed and maintained several web applications and tools including RevX employee performance system (MongoDB, Express.js, React.js, Node.js), Service Prompt AI (Flask, Hugging Face Transformers), and JobResumeAnalyzer (Django, ML, NLP). Implemented secure authentication, real-time dashboards, AI text classification, and semantic analysis.",
+              "tags": [
+                "React.js",
+                "Node.js",
+                "Express.js",
+                "MongoDB",
+                "Django",
+                "Flask",
+                "Machine Learning",
+                "NLP"
+              ]
+            }
+          }
+        },
+        {
+          "icon": {
+            "img": null,
+            "fa": "fa-solid fa-cogs",
+            "faColors": { "bg": "#4479A1", "fill": "#EEE" }
+          },
+          "dates": {
+            "start": "Ongoing"
+          },
+          "locales": {
+            "en": {
+              "title": "**POS System Developer**",
+              "info": "Fareed Motors",
+              "text": "Currently developing a tailored POS system for vehicle dealership including inventory tracking, invoice generation, dynamic reporting, and secure multi-user authentication using Laravel, Blade, Livewire, and PostgreSQL.",
+              "tags": [
+                "Laravel",
+                "Blade",
+                "Livewire",
+                "PostgreSQL"
+              ]
+            }
+          }
+        },
+        {
+          "icon": {
+            "img": "public/images/pictures/mora.png",
+            "fa": "",
+            "faColors": { "bg": null, "fill": null }
+          },
+          "dates": {
+            "start": "12/2020",
+            "end": "11/2022"
+          },
+          "locales": {
+            "en": {
+              "title": "**Automated Medicine Dispenser (University Project)**",
+              "info": "University of Moratuwa",
+              "text": "Designed an innovative IoT device to dispense medications accurately with user-friendly interface for scheduling, temperature monitoring, and dosage control to improve medication adherence.",
+              "tags": ["IoT", "C++", "Arduino"]
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,187 @@
+{
+  "locales": {
+    "en": {
+      "title": "Life recently",
+      "title_menu": "Updates",
+      "title_long_prefix": "Take a look at my",
+      "title_long": "Recent **Updates**"
+    }
+  },
+
+  "articles": [
+    {
+      "id": "fun_facts",
+      "component": "ArticleServices",
+      "config": {},
+      "locales": {},
+      "items": [
+        {
+          "icon": {
+            "img": null,
+            "fa": "fa-solid fa-tablet-screen-button",
+            "faColors": null
+          },
+          "locales": {
+            "en": {
+              "title": "02",
+              "info": "Apps published"
+            }
+          }
+        },
+        {
+          "icon": {
+            "img": null,
+            "fa": "fa-solid fa-star",
+            "faColors": null
+          },
+          "locales": {
+            "en": {
+              "title": "10 to 100",
+              "info": "Stars on GitHub"
+            }
+          }
+        },
+        {
+          "icon": {
+            "img": null,
+            "fa": "fa-solid fa-globe",
+            "faColors": null
+          },
+          "locales": {
+            "en": {
+              "title": "09",
+              "info": "Current Projects"
+            }
+          }
+        },
+        {
+          "icon": {
+            "img": null,
+            "fa": "fa-solid fa-diagram-project",
+            "faColors": null
+          },
+          "locales": {
+            "en": {
+              "title": "07",
+              "info": "Open-source projects"
+            }
+          }
+        },
+        {
+          "icon": {
+            "img": null,
+            "fa": "fa-solid fa-coffee",
+            "faColors": null
+          },
+          "locales": {
+            "en": {
+              "title": "20,000",
+              "info": "Coffees consumed"
+            }
+          }
+        }
+      ]
+    },
+
+    {
+      "id": "updates",
+      "component": "ArticleThread",
+      "config": {},
+      "locales": {
+        "en": {
+          "title": "Quick **Facts**"
+        }
+      },
+      "items": [
+        {
+  "dates": {
+    "start": "01/02/2025"
+  },
+  "links": [],
+  "locales": {
+    "en": {
+      "title": "Full-Stack Engineer at **KINIT (PVT) Ltd**",
+      "text": "Currently leading the full-stack development of Snapwerks, a scalable and high-performance platform. Responsible for designing and implementing robust backend architectures, optimizing system performance, and introducing engineering best practices. Actively mentoring junior developers while fostering innovation and delivering impactful solutions in a dynamic, fast-paced environment."
+    }
+  }
+},
+        {
+          "dates": {
+            "start": "05/12/2024"
+          },
+          "links": [
+            {
+              "string": "see_more",
+              "href": "https://github.com/Faskath513"
+            }
+          ],
+          "locales": {
+            "en": {
+              "title": "Started my own **Machine Learning Projects**!",
+              "text": "Developed and deployed a Machine Learning project utilizing advanced algorithms and models to solve real-world problems. The project involved data preprocessing, feature engineering, model training, and evaluation, delivering accurate predictions and insights to drive decision-making."
+            }
+          }
+        },
+        
+        {
+          "dates": {
+            "start": "09/12/2024"
+          },
+          "links": [
+            {
+              "string": "see_more",
+              "href": "https://faskath513.github.io/Portfolio/"
+            }
+          ],
+          "locales": {
+            "en": {
+              "title": "Launched my **personal website**!",
+              "text": "Created a personal website to showcase my projects, share my journey in programming, and provide resources for fellow developers."
+            }
+          }
+        },
+        {
+          "dates": {
+            "start": "02/01/2025"
+          },
+          "links": [],
+          "locales": {
+            "en": {
+              "title": "Building SnapWerks across **9+ countries**",
+              "text": "Spearheading backend and mobile development of SnapWerks – a multilingual, modular job & service marketplace. Live in Sri Lanka, Netherlands, GCC, and more, with regional payment gateways and AI-driven matching integrated."
+            }
+          }
+        },
+        {
+          "dates": {
+            "start": "06/01/2025"
+          },
+          "links": [],
+          "locales": {
+            "en": {
+              "title": "Modern POS for **Fareed Motors**",
+              "text": "Developing a modern point-of-sale system for a leading vehicle dealership. Features include inventory, billing, dynamic reports, and secure multi-user access. Tailored for performance and usability."
+            }
+          }
+        },
+        {
+          "dates": {
+            "start": "01/01/2024"
+          },
+          "links": [
+            {
+              "string": "GitHub Profile",
+              "href": "https://github.com/Faskath513"
+            }
+          ],
+          "locales": {
+            "en": {
+              "title": "Over **700+ GitHub Contributions** per year",
+              "text": "Maintaining a high level of open-source activity, consistently contributing across diverse projects including AI tools, full-stack systems, and developer utilities."
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

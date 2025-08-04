@@ -1,0 +1,61 @@
+{
+    "version": "1.0.0",
+    "animatedCursorEnabled": true,
+    "fullScreenButtonEnabled": true,
+
+    "preloader": {
+        "enabled": true,
+        "title": " <b>Portfolio</b>",
+        "subtitle": "by Mohamed Faskath"
+    },
+
+    "profile": {
+        "name": "Mohamed Faskath",
+        "stylizedName": "<strong>Mohamed **Faskath**</strong>",
+        "logoUrl": "public/images/svg/logo.png",
+        "profilePictureUrl": "public/images/svg/logo.png",
+
+        "locales": {
+            "en": {"role": "Software Engineer ||AI/ML Enthusiest"}
+           
+        }
+    },
+
+    "status": {
+        "visible": true,
+        "available": true,
+
+        "locales": {
+            "en": {"message": "Available for freelance!"}
+        }
+    },
+
+    "supportedThemes": [
+        {
+            "id": "dark",
+            "default": true,
+            "icon": "fa-solid fa-moon"
+        },
+
+        {
+            "id": "light",
+            "default": false,
+            "icon": "fa-solid fa-sun"
+        }
+    ],
+
+    "supportedLanguages": [
+        {
+            "name": "English",
+            "id": "en",
+            "flagUrl": "images/flags/en.png",
+            "default": true
+        }
+    ],
+
+    "emailjs": {
+        "publicKey": "tzObcsmOwHvPy6Rhp",
+        "serviceId": "service_4h8g7vb",
+        "templateId": "template_seyjkzn"
+    }
+}

@@ -1,0 +1,56 @@
+{
+  "locales": {
+    "en": {
+      "title": "Education",
+      "title_long_prefix": "This is my",
+      "title_long": "**Educational** Background"
+    }
+  },
+  "articles": [
+    {
+      "id": "academic",
+      "component": "ArticleTimeline",
+      "config": {},
+      "locales": {},
+      "items": [
+        {
+          "icon": {
+            "img": "public/images/pictures/mora.png",
+            "fa": "",
+            "faColors": { "bg": null, "fill": null }
+          },
+          "dates": {
+            "start": "12/01/2021"
+          },
+          "locales": {
+            "en": {
+              "title": "**BSc (Hons)** in Information Technology",
+              "info": "University of Moratuwa",
+              "text": "Currently pursuing a BSc (Hons) in Information Technology at the University of Moratuwa – Faculty of Information Technology. Focus areas include full stack web development, data structures, algorithms, software engineering, and machine learning.",
+              "tags": ["Web Development", "Machine Learning", "Algorithms", "Software Engineering", "App Development"]
+            }
+          }
+        },
+        {
+          "icon": {
+            "img": "public/images/pictures/kcc.png",
+            "fa": "",
+            "faColors": { "bg": null, "fill": null }
+          },
+          "dates": {
+            "start": "01/01/2018",
+            "end": "12/01/2020"
+          },
+          "locales": {
+            "en": {
+              "title": "**Advanced Level** – Physical Science Stream",
+              "info": "Kinniya Central College",
+              "text": "Completed A/Ls in the Physical Science stream with a focus on Combined Mathematics, Physics, and Chemistry.",
+              "tags": ["Combined Maths", "Physics", "Chemistry"]
+            }
+          }
+        }
+      ]
+    }
+  ]
+}
