@@ -15,7 +15,7 @@
       "items": [
         {
           "icon": {
-            "img": "public/images/pictures/mora.png",
+            "img": "images/pictures/mora.png",
             "fa": "",
             "faColors": { "bg": null, "fill": null }
           },
@@ -33,7 +33,7 @@
         },
         {
           "icon": {
-            "img": "public/images/pictures/kcc.png",
+            "img": "images/pictures/kcc.png",
             "fa": "",
             "faColors": { "bg": null, "fill": null }
           },

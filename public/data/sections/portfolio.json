@@ -36,7 +36,7 @@
         {
           "categoryId": "websites",
           "icon": {
-            "img": "public/images/pictures/snapwerks.jpg",
+            "img": "images/pictures/snapwerks.jpg",
             "fa": "",
             "faColors": { "bg": null, "fill": null }
           },
@@ -57,7 +57,7 @@
         {
           "categoryId": "websites",
           "icon": {
-            "img": "public/images/pictures/Screenshot 2024-11-11 at 19.47.00.png",
+            "img": "images/pictures/Screenshot 2024-11-11 at 19.47.00.png",
             "fa": null,
             "faColors": { "bg": null, "fill": null }
           },
@@ -78,7 +78,7 @@
         {
           "categoryId": "websites",
           "icon": {
-            "img": "public/images/pictures/Screenshot 2024-11-11 at 18.55.34.png",
+            "img": "images/pictures/Screenshot 2024-11-11 at 18.55.34.png",
             "fa": null,
             "faColors": { "bg": null, "fill": null }
           },
@@ -101,7 +101,7 @@
         {
           "categoryId": "utilities",
           "icon": {
-            "img": "/public/images/pictures/project-screenshot-6.png",
+            "img": "images/pictures/project-screenshot-6.png",
             "fa": "",
             "faColors": { "bg": null, "fill": null }
           },
@@ -143,7 +143,7 @@
         {
           "categoryId": "websites",
           "icon": {
-            "img": "public/images/pictures/avatar.jpg",
+            "img": "images/pictures/avatar.jpg",
             "fa": "",
             "faColors": { "bg": null, "fill": null }
           },

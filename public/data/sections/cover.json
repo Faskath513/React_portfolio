@@ -107,7 +107,7 @@
           "value": "Full Stack Development",
           "links": [],
           "icon": {
-            "img": "public/images/pictures/fullstack.png",
+            "img": "images/pictures/fullstack.png",
             "fa": "fa-solid fa-layer-group",
             "faColors": null
           },
@@ -122,7 +122,7 @@
           "value": "Machine Learning Projects",
           "links": [],
           "icon": {
-            "img": "public/images/pictures/ml.png",
+            "img": "images/pictures/ml.png",
             "fa": "fa-solid fa-brain",
             "faColors": null
           },
@@ -137,7 +137,7 @@
           "value": "POS System Development",
           "links": [],
           "icon": {
-            "img": "public/images/pictures/pos.png",
+            "img": "images/pictures/pos.png",
             "fa": "fa-solid fa-cash-register",
             "faColors": null
           },
@@ -152,7 +152,7 @@
           "value": "E-Commerce Development",
           "links": [],
           "icon": {
-            "img": "public/images/pictures/ecommerce.png",
+            "img": "images/pictures/ecommerce.png",
             "fa": "fa-solid fa-cart-shopping",
             "faColors": null
           },
@@ -167,7 +167,7 @@
           "value": "Prompt Engineering",
           "links": [],
           "icon": {
-            "img": "public/images/pictures/prompt.png",
+            "img": "images/pictures/prompt.png",
             "fa": "fa-solid fa-message",
             "faColors": null
           },

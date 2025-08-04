@@ -12,8 +12,8 @@
     "profile": {
         "name": "Mohamed Faskath",
         "stylizedName": "<strong>Mohamed **Faskath**</strong>",
-        "logoUrl": "public/images/svg/logo.png",
-        "profilePictureUrl": "public/images/svg/logo.png",
+        "logoUrl": "images/svg/logo.png",
+        "profilePictureUrl": "images/svg/logo.png",
 
         "locales": {
             "en": {"role": "Software Engineer ||AI/ML Enthusiest"}
