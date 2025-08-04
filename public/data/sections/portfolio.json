@@ -1,0 +1,188 @@
+{
+  "locales": {
+    "en": {
+      "title": "Portfolio",
+      "title_long_prefix": "Take a look at",
+      "title_long": "My **Portfolio**"
+    }
+  },
+  "articles": [
+    {
+      "id": "portfolio",
+      "component": "ArticlePortfolio",
+      "config": {},
+      "locales": {},
+      "categories": [
+        {
+          "id": "apps",
+          "locales": {
+            "en": { "singular": "App", "plural": "Apps" }
+          }
+        },
+        {
+          "id": "websites",
+          "locales": {
+            "en": { "singular": "Website", "plural": "Websites" }
+          }
+        },
+        {
+          "id": "utilities",
+          "locales": {
+            "en": { "singular": "Utility", "plural": "Utilities" }
+          }
+        }
+      ],
+      "items": [
+        {
+          "categoryId": "websites",
+          "icon": {
+            "img": "public/images/pictures/snapwerks.jpg",
+            "fa": "",
+            "faColors": { "bg": null, "fill": null }
+          },
+          "links": [
+            {
+              "faIcon": "fa-brands fa-github",
+              "href": "https://github.com/Faskath513"
+            }
+          ],
+          "locales": {
+            "en": {
+              "title": "SnapWerks Platform",
+              "text": "A multi-tenant job & service marketplace supporting 9 countries. Built with <b>Symfony</b>, <b>Twig</b>, <b>Stimulus</b>, and <b>Hotwire Native</b>. Features secure payment gateways (Stripe, PayHere) and AI-based matching.",
+              "tags": ["Symfony", "Twig", "Hotwire", "Stimulus", "Stripe", "AI"]
+            }
+          }
+        },
+        {
+          "categoryId": "websites",
+          "icon": {
+            "img": "public/images/pictures/Screenshot 2024-11-11 at 19.47.00.png",
+            "fa": null,
+            "faColors": { "bg": null, "fill": null }
+          },
+          "links": [
+            {
+              "faIcon": "fa-brands fa-github",
+              "href": "https://github.com/Faskath513/Task_managment.git"
+            }
+          ],
+          "locales": {
+            "en": {
+              "title": "RevX – Employee Evaluation System",
+              "text": "A MERN stack-based dashboard to monitor, evaluate, and rank employees with visual reports and performance analysis using <b>React, Node.js, MongoDB</b>.",
+              "tags": ["React.js", "Node.js", "Express.js", "MongoDB"]
+            }
+          }
+        },
+        {
+          "categoryId": "websites",
+          "icon": {
+            "img": "public/images/pictures/Screenshot 2024-11-11 at 18.55.34.png",
+            "fa": null,
+            "faColors": { "bg": null, "fill": null }
+          },
+          "links": [
+            {
+              "faIcon": "fa-brands fa-github",
+              "href": "https://github.com/Faskath513/JobResumeAnalyzer.git"
+            }
+          ],
+          "locales": {
+            "en": {
+              "title": "JobResume Analyzer",
+              "text": "A <b>Django-based</b> web app with built-in AI for resume-job matching using <b>NLP & ML models</b> to evaluate resumes, provide scores, and suggest job matches.",
+              "tags": ["Python", "Django", "NLP", "Machine Learning", "REST"]
+            }
+          }
+        },
+        
+        
+        {
+          "categoryId": "utilities",
+          "icon": {
+            "img": "/public/images/pictures/project-screenshot-6.png",
+            "fa": "",
+            "faColors": { "bg": null, "fill": null }
+          },
+          "links": [
+            {
+              "faIcon": "fa-brands fa-github",
+              "href": "https://github.com/Faskath513/Face-Recognition-Attendance-System-for-Employees-using-Python.git"
+            }
+          ],
+          "locales": {
+            "en": {
+              "title": "Face Recognition Attendance System",
+              "text": "Built using <b>Python</b> and <b>OpenCV</b>, this desktop utility captures attendance in real-time using facial recognition, enhancing security and automation.",
+              "tags": ["Python", "OpenCV", "Face Recognition"]
+            }
+          }
+        },
+        {
+          "categoryId": "utilities",
+          "icon": {
+            "img": "",
+            "fa": "fa-solid fa-brain",
+            "faColors": { "bg": null, "fill": null }
+          },
+          "links": [
+            {
+              "faIcon": "fa-brands fa-github",
+              "href": "https://github.com/Faskath513/Service-Prompt-AI"
+            }
+          ],
+          "locales": {
+            "en": {
+              "title": "Service Prompt AI",
+              "text": "A prompt engineering tool to generate AI prompts using <b>Hugging Face Transformers</b> and <b>Flask</b>, featuring prompt refinement and semantic text classification.",
+              "tags": ["Flask", "Transformers", "AI", "HuggingFace", "Python"]
+            }
+          }
+        },
+        {
+          "categoryId": "websites",
+          "icon": {
+            "img": "public/images/pictures/avatar.jpg",
+            "fa": "",
+            "faColors": { "bg": null, "fill": null }
+          },
+          "links": [
+            {
+              "faIcon": "fa-solid fa-link",
+              "href": "https://faskath513.github.io/Portfolio/"
+            }
+          ],
+          "locales": {
+            "en": {
+              "title": "Personal Portfolio Website",
+              "text": "Developed with <b>React</b>, <b>Vite</b>, and <b>Bootstrap</b>, showcasing projects, skills, and contact information with modern responsive design.",
+              "tags": ["React", "Vite", "Bootstrap", "CSS", "HTML"]
+            }
+          }
+        },
+        {
+          "categoryId": "apps",
+          "icon": {
+            "img": "",
+            "fa": "fa-solid fa-bus",
+            "faColors": { "bg": null, "fill": null }
+          },
+          "links": [
+            {
+              "faIcon": "fa-brands fa-github",
+              "href": "https://github.com/Faskath513/Bus-Reservation-System.git"
+            }
+          ],
+          "locales": {
+            "en": {
+              "title": "Bus Reservation System",
+              "text": "An Android app for seat booking, schedule management, and ticket generation. Built with <b>Java</b> and <b>Firebase</b> for real-time updates.",
+              "tags": ["Java", "Android", "Firebase"]
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

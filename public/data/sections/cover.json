@@ -1,0 +1,255 @@
+{
+  "locales": {
+    "en": {
+      "title": "Welcome!",
+      "title_menu": "About me",
+      "title_long_prefix": "Hello...",
+      "title_long": "I'm **Mohamed Faskath!**"
+    }
+  },
+
+  "articles": [
+    {
+      "id": "contact_list",
+      "component": "ArticleGrid",
+      "config": {
+        "ignorePaddingTop": true,
+        "format": "inline"
+      },
+      "locales": {
+        "en": {}
+      },
+      "items": [
+        {
+          "value": "Full Stack Engineer @ SnapWerks",
+          "links": [{ "href": "https://www.snapwerks.lk" }],
+          "icon": {
+            "img": null,
+            "fa": "fa-solid fa-city",
+            "faColors": { "bg": null, "fill": null }
+          }
+        },
+        {
+          "value": "faskath9054@gmail.com",
+          "links": [{ "href": "mailto:faskath9054@gmail.com" }],
+          "icon": {
+            "img": null,
+            "fa": "fa-solid fa-envelope",
+            "faColors": { "bg": null, "fill": null }
+          }
+        },
+        {
+          "value": "+94 75 750 7441",
+          "links": [{ "href": "tel:+94757507441" }],
+          "icon": {
+            "img": null,
+            "fa": "fa-solid fa-phone",
+            "faColors": { "bg": null, "fill": null }
+          }
+        },
+        {
+          "value": "LinkedIn",
+          "links": [{ "href": "https://www.linkedin.com/in/faskath513/" }],
+          "icon": {
+            "img": null,
+            "fa": "fa-brands fa-linkedin",
+            "faColors": { "bg": null, "fill": null }
+          }
+        },
+        {
+          "value": "Portfolio",
+          "links": [{ "href": "https://faskath513.github.io/Portfolio/" }],
+          "icon": {
+            "img": null,
+            "fa": "fa-brands fa-github",
+            "faColors": { "bg": null, "fill": null }
+          }
+        }
+      ]
+    },
+
+    {
+      "id": "short_description",
+      "component": "ArticleInfoBlock",
+      "config": {},
+      "locales": {
+        "en": {
+          "title": "**A little bit** about me..."
+        }
+      },
+      "items": [
+        {
+          "icon": {
+            "img": "public/images/svg/faskath.JPG",
+            "fa": null,
+            "faColors": { "bg": null, "fill": null }
+          },
+          "locales": {
+            "en": {
+              "text": "I'm currently a Full Stack Software Engineer at **SnapWerks**, where I help build and scale multi-tenant, multilingual platforms used across **Sri Lanka, the Netherlands, and the GCC**.<br><br>I work across the full stack — from backend development using **Symfony** and **PostgreSQL**, to mobile apps with **Hotwire Native**, and intuitive UIs using **Stimulus JS**, **Twig**, and **Tailwind CSS**. I also lead implementations of **AI-powered job-service matchers**, international **payment gateways**, and **automated testing** with Cypress.<br><br>Alongside my role, I'm pursuing a **BSc (Hons) in Information Technology** at the **University of Moratuwa**, and I'm passionate about turning ideas into impactful real-world solutions."
+            }
+          }
+        }
+      ]
+    },
+
+    {
+      "id": "testimonials",
+      "component": "ArticleTestimonials",
+      "config": {},
+      "locales": {
+        "en": {
+          "title": "**My Services**"
+        }
+      },
+      "items": [
+        {
+          "value": "Full Stack Development",
+          "links": [],
+          "icon": {
+            "img": "public/images/pictures/fullstack.png",
+            "fa": "fa-solid fa-layer-group",
+            "faColors": null
+          },
+          "locales": {
+            "en": {
+              "info": "Web & mobile development using <b>Symfony, Django, React, Hotwire Native</b>",
+              "text": "I specialize in full stack solutions across web and mobile platforms. From backend APIs to frontend UIs and mobile apps, I deliver scalable, modular systems using Symfony, Django, Stimulus JS, React, and Hotwire Native."
+            }
+          }
+        },
+        {
+          "value": "Machine Learning Projects",
+          "links": [],
+          "icon": {
+            "img": "public/images/pictures/ml.png",
+            "fa": "fa-solid fa-brain",
+            "faColors": null
+          },
+          "locales": {
+            "en": {
+              "info": "AI-powered solutions using <b>Hugging Face, TensorFlow, NLP</b>",
+              "text": "I build intelligent systems for automation and analysis using modern ML libraries. Projects include service prompt generators, resume-job matchers, and text classification tools powered by GPT and DistilBERT."
+            }
+          }
+        },
+        {
+          "value": "POS System Development",
+          "links": [],
+          "icon": {
+            "img": "public/images/pictures/pos.png",
+            "fa": "fa-solid fa-cash-register",
+            "faColors": null
+          },
+          "locales": {
+            "en": {
+              "info": "Custom POS using <b>Laravel, PostgreSQL, Livewire</b>",
+              "text": "I develop modern POS systems tailored for businesses like vehicle dealerships. My solutions include inventory tracking, invoice generation, customer profiles, and dynamic sales reports built with Laravel and Livewire."
+            }
+          }
+        },
+        {
+          "value": "E-Commerce Development",
+          "links": [],
+          "icon": {
+            "img": "public/images/pictures/ecommerce.png",
+            "fa": "fa-solid fa-cart-shopping",
+            "faColors": null
+          },
+          "locales": {
+            "en": {
+              "info": "Custom online stores using <b>Laravel, Django, React, Stripe</b>",
+              "text": "I design and build responsive e-commerce platforms with secure authentication, cart & checkout workflows, and integrated payments. Whether it's single-seller or multi-vendor, I ensure performance, security, and great UX."
+            }
+          }
+        },
+        {
+          "value": "Prompt Engineering",
+          "links": [],
+          "icon": {
+            "img": "public/images/pictures/prompt.png",
+            "fa": "fa-solid fa-message",
+            "faColors": null
+          },
+          "locales": {
+            "en": {
+              "info": "LLM Prompt Design using <b>GPT-4, Claude, Gemini</b>",
+              "text": "I craft optimized prompts and system instructions to maximize performance from large language models. My prompt engineering enables smarter AI apps, from service matchers to text generation and classification tools."
+            }
+          }
+        }
+      ]
+    },
+
+    {
+      "id": "interests",
+      "component": "ArticleGrid",
+      "config": {
+        "format": "grid"
+      },
+      "locales": {
+        "en": {
+          "title": "Personal **interests**"
+        }
+      },
+      "items": [
+        {
+          "icon": {
+            "img": null,
+            "fa": "fa-solid fa-laptop-code",
+            "faColors": null
+          },
+          "value": null,
+          "locales": {
+            "en": {
+              "title": "Full Stack Projects",
+              "info": "Building scalable platforms from backend logic to polished UIs."
+            }
+          }
+        },
+        {
+          "icon": {
+            "img": null,
+            "fa": "fa-solid fa-robot",
+            "faColors": null
+          },
+          "value": null,
+          "locales": {
+            "en": {
+              "title": "AI & Automation",
+              "info": "Creating intelligent assistants using Python and ML libraries."
+            }
+          }
+        },
+        {
+          "icon": {
+            "img": null,
+            "fa": "fa-solid fa-brain",
+            "faColors": null
+          },
+          "value": null,
+          "locales": {
+            "en": {
+              "title": "Machine Learning",
+              "info": "Building data-driven features with semantic analysis and classification."
+            }
+          }
+        },
+        {
+          "icon": {
+            "img": null,
+            "fa": "fa-brands fa-react",
+            "faColors": null
+          },
+          "value": null,
+          "locales": {
+            "en": {
+              "title": "Frontend UI/UX",
+              "info": "Designing intuitive and elegant experiences for end users."
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

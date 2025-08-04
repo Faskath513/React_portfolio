@@ -1,0 +1,377 @@
+{
+  "locales": {
+    "en": {
+      "title": "Skills",
+      "title_long_prefix": "Explore",
+      "title_long": "My **Skill Set**"
+    }
+  },
+
+  "articles": [
+    {
+      "id": "capabilities",
+      "component": "ArticleCards",
+      "config": {},
+      "locales": {},
+      "items": [
+        {
+          "icon": {
+            "img": null,
+            "fa": "fa-solid fa-table-columns",
+            "faColors": { "bg": null, "fill": null }
+          },
+          "locales": {
+            "en": {
+              "title": "**Full-Stack Web Development**",
+              "text": "Building scalable, multilingual job & service platforms."
+            }
+          }
+        },
+        {
+          "icon": {
+            "img": null,
+            "fa": "fa-solid fa-database",
+            "faColors": { "bg": null, "fill": null }
+          },
+          "locales": {
+            "en": {
+              "title": "**Database Management**",
+              "text": "Proficient with PostgreSQL, MongoDB, and SQLite."
+            }
+          }
+        },
+        {
+          "icon": {
+            "img": null,
+            "fa": "fa-solid fa-mobile-screen-button",
+            "faColors": { "bg": null, "fill": null }
+          },
+          "locales": {
+            "en": {
+              "title": "**Mobile App Development**",
+              "text": "Experienced with Hotwire Native for Android & iOS."
+            }
+          }
+        },
+        {
+          "icon": {
+            "img": null,
+            "fa": "fa-solid fa-window-restore",
+            "faColors": { "bg": null, "fill": null }
+          },
+          "locales": {
+            "en": {
+              "title": "REST **APIs**",
+              "text": "Developing API services with Symfony, Django, and Flask."
+            }
+          }
+        },
+        {
+          "icon": {
+            "img": null,
+            "fa": "fa-solid fa-toolbox",
+            "faColors": { "bg": null, "fill": null }
+          },
+          "locales": {
+            "en": {
+              "title": "**Testing & Automation**",
+              "text": "Expertise in Cypress, Postman for end-to-end testing."
+            }
+          }
+        },
+        {
+          "icon": {
+            "img": null,
+            "fa": "fa-solid fa-brain",
+            "faColors": { "bg": null, "fill": null }
+          },
+          "locales": {
+            "en": {
+              "title": "**AI & Machine Learning**",
+              "text": "Applied ML with TensorFlow, OpenCV, and NLP tools."
+            }
+          }
+        }
+      ]
+    },
+
+    {
+      "id": "backend_programming",
+      "component": "ArticleList",
+      "config": {},
+      "locales": {
+        "en": { "title": "Backend" }
+      },
+      "items": [
+        {
+          "icon": {
+            "img": null,
+            "fa": "fa-brands fa-php",
+            "faColors": { "bg": "#8892BF", "fill": "#EEE" }
+          },
+          "value": 100,
+          "dates": { "start": "09/01/2018" },
+          "locales": {
+            "en": {
+              "title": "PHP 8.0+ (Symfony, Laravel)",
+              "info": "Expert in modular, multi-tenant backend architecture."
+            }
+          }
+        },
+        {
+          "icon": {
+            "img": null,
+            "fa": "fa-brands fa-python",
+            "faColors": { "bg": "#092E20", "fill": "#FFF" }
+          },
+          "value": 90,
+          "dates": { "start": "06/20/2020" },
+          "locales": {
+            "en": {
+              "title": "Python 3.x (Django, Flask)",
+              "info": "Backend APIs and ML integrations."
+            }
+          }
+        },
+        {
+          "icon": {
+            "img": null,
+            "fa": "fa-brands fa-java",
+            "faColors": { "bg": "#007396", "fill": "#EEE" }
+          },
+          "value": 85,
+          "dates": { "start": "03/10/2019" },
+          "locales": {
+            "en": {
+              "title": "Java 11+",
+              "info": "Solid foundation in Java backend systems."
+            }
+          }
+        },
+        {
+          "icon": {
+            "img": null,
+            "fa": "fa-solid fa-database",
+            "faColors": { "bg": "#336791", "fill": "#EEE" }
+          },
+          "value": 90,
+          "dates": { "start": "10/10/2020" },
+          "locales": {
+            "en": {
+              "title": "PostgreSQL",
+              "info": "Expertise in relational database design & optimization."
+            }
+          }
+        },
+        {
+          "icon": {
+            "img": null,
+            "fa": "fa-solid fa-server",
+            "faColors": { "bg": "#47A248", "fill": "#EEE" }
+          },
+          "value": 60,
+          "dates": { "start": "05/20/2024" },
+          "locales": {
+            "en": {
+              "title": "MongoDB",
+              "info": "NoSQL database experience for flexible data models."
+            }
+          }
+        },
+        {
+          "icon": {
+            "img": null,
+            "fa": "fa-brands fa-docker",
+            "faColors": { "bg": "#2496ED", "fill": "#EEE" }
+          },
+          "value": 70,
+          "dates": { "start": "04/15/2021" },
+          "locales": {
+            "en": {
+              "title": "Docker",
+              "info": "Containerization and microservices deployment."
+            }
+          }
+        },
+        {
+          "icon": {
+            "img": null,
+            "fa": "fa-brands fa-git",
+            "faColors": { "bg": "#F05032", "fill": "#111" }
+          },
+          "value": 95,
+          "dates": { "start": "01/01/2018" },
+          "locales": {
+            "en": {
+              "title": "Git",
+              "info": "Version control and collaborative development."
+            }
+          }
+        }
+      ]
+    },
+
+    {
+      "id": "front_end_programming",
+      "component": "ArticleList",
+      "config": {},
+      "locales": {
+        "en": { "title": "Frontend" }
+      },
+      "items": [
+        {
+          "icon": {
+            "img": null,
+            "fa": "fa-brands fa-html5",
+            "faColors": { "bg": "#E34F26", "fill": "#EEE" }
+          },
+          "value": 95,
+          "dates": { "start": "09/01/2018" },
+          "locales": {
+            "en": {
+              "title": "HTML5",
+              "info": "Semantic and accessible markup."
+            }
+          }
+        },
+        {
+          "icon": {
+            "img": null,
+            "fa": "fa-brands fa-css3",
+            "faColors": { "bg": "#1572B6", "fill": "#EEE" }
+          },
+          "value": 70,
+          "dates": { "start": "01/15/2019" },
+          "locales": {
+            "en": {
+              "title": "CSS3 (Tailwind CSS, Bootstrap)",
+              "info": "Modern styling frameworks for responsive design."
+            }
+          }
+        },
+        {
+          "icon": {
+            "img": null,
+            "fa": "fa-brands fa-js",
+            "faColors": { "bg": "#F7DF1E", "fill": "#111" }
+          },
+          "value": 90,
+          "dates": { "start": "03/10/2020" },
+          "locales": {
+            "en": {
+              "title": "JavaScript ES6+",
+              "info": "Dynamic and interactive web applications."
+            }
+          }
+        },
+        {
+          "icon": {
+            "img": null,
+            "fa": "fa-brands fa-react",
+            "faColors": { "bg": "#61DAFB", "fill": "#111" }
+          },
+          "value": 90,
+          "dates": { "start": "06/20/2020" },
+          "locales": {
+            "en": {
+              "title": "React",
+              "info": "Component-based UI development."
+            }
+          }
+        },
+        {
+          "icon": {
+            "img": null,
+            "fa": "fa-brands fa-vuejs",
+            "faColors": { "bg": "#4FC08D", "fill": "#111" }
+          },
+          "value": 40,
+          "dates": { "start": "08/30/2023" },
+          "locales": {
+            "en": {
+              "title": "Vue.js",
+              "info": "Basic knowledge and growing experience."
+            }
+          }
+        },
+        {
+          "icon": {
+            "img": null,
+            "fa": "fa-brands fa-bootstrap",
+            "faColors": { "bg": "#7952B3", "fill": "#EEE" }
+          },
+          "value": 85,
+          "dates": { "start": "02/10/2021" },
+          "locales": {
+            "en": {
+              "title": "Bootstrap",
+              "info": "Rapid UI prototyping and responsive layouts."
+            }
+          }
+        }
+      ]
+    },
+
+    {
+      "id": "languages",
+      "component": "ArticleList",
+      "config": {},
+      "locales": {
+        "en": { "title": "Languages" },
+        "es": { "title": "Idiomas" },
+        "fr": { "title": "Langues" },
+        "ko": { "title": "언어" }
+      },
+      "items": [
+        {
+          "icon": {
+            "img": "images/flags/en.png",
+            "fa": null,
+            "faColors": { "bg": null, "fill": null }
+          },
+          "value": null,
+          "dates": { "start": null },
+          "locales": {
+            "en": {
+              "title": "English",
+              "info": "Fluent - excellent communication and writing skills.",
+              "tags": ["Fluent"]
+            }
+          }
+        },
+        {
+          "icon": {
+            "img": null,
+            "fa": "fa-solid fa-language",
+            "faColors": { "bg": null, "fill": null }
+          },
+          "value": null,
+          "dates": { "start": null },
+          "locales": {
+            "en": {
+              "title": "Tamil",
+              "info": "Native speaker with excellent communication skills.",
+              "tags": ["Native"]
+            }
+          }
+        },
+        {
+          "icon": {
+            "img": null,
+            "fa": "fa-solid fa-language",
+            "faColors": { "bg": null, "fill": null }
+          },
+          "value": null,
+          "dates": { "start": null },
+          "locales": {
+            "en": {
+              "title": "Sinhala",
+              "info": "Conversational proficiency.",
+              "tags": ["Conversational"]
+            }
+          }
+        }
+      ]
+    }
+  ]
+}
