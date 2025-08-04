@@ -80,7 +80,7 @@
       "items": [
         {
           "icon": {
-            "img": "public/images/svg/faskath.JPG",
+            "img": "images/svg/faskath.JPG",
             "fa": null,
             "faColors": { "bg": null, "fill": null }
           },
